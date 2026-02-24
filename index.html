@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+<meta charset="UTF-8">
+<title>Surprizë për Nuçin ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- START SCREEN -->
+<div id="startScreen">
+  <p>Shumë gëzim dhe dashuri për ditëlindjen tënde, Nuçi 🌹<br>Kliko këtu për të hapur surprizën time ❤️</p>
+</div>
+
+<!-- FJALIMI ROMANTIK -->
+<div id="speechScreen" class="hidden">
+  <div id="speechText"></div>
+</div>
+
+<!-- PYETJA INTERAKTIVE -->
+<div id="inviteScreen" class="hidden">
+  <div class="invite-box">
+    <p>Do të doja të të çoja në një darkë të veçantë, vetëm ne të dy, për të festuar këtë ditë të shenjtë. Do të pranosh të jesh e imja për një mbrëmje magjike? 💖</p>
+    <div class="buttons">
+      <button id="yesBtn">Po 😍</button>
+      <button id="noBtn">Jo 😢</button>
+    </div>
+  </div>
+</div>
+
+<!-- FOTO + MESAZHI FINAL -->
+<div id="photoScreen" class="hidden">
+  <img src="nuci.JPG" class="photo-big">
+  <h2 id="photoText"></h2>
+</div>
+
+<canvas id="effects"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>
